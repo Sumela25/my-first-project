@@ -1,0 +1,88 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Full Page Centering & Background */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    background-image: url('images/favicon-32x32.png'); /* Ensure correct path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background Rectangle */
+.background-box {
+    background-color: hsl(212, 45%, 89%); /* Light blue background */
+    width: 120vw; /* Adjust width based on preference */
+    max-width: 1400px; /* Prevents it from becoming too wide */
+    height: 90vh; /* Adjust height */
+    max-height: 600px; /* Prevents it from being too tall */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the QR Card */
+.qr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* QR Code Card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px; /* Set fixed width */
+}
+
+/* QR Code Image */
+.qr-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Heading */
+.card h2 {
+    font-size: 18px;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Paragraph */
+.card p {
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    margin-top: 10px;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
