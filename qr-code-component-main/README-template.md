@@ -2,102 +2,118 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
+## Table of Contents
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+- [Useful Resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
 ## Overview
+This project is a solution to the QR Code Component Challenge from Frontend Mentor. The goal was to build a simple, responsive card component featuring a QR code, allowing users to scan and access a given link.
+Through this challenge, I practiced HTML and CSS fundamentals, focusing on responsive design, flexbox, and alignment techniques.
 
-### Screenshot
+## Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](images/screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
+## Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+1. Planning & Understanding the Challenge
+I started by carefully reviewing the Frontend Mentor challenge brief and analyzing the provided Figma design.
+I noted down the key elements needed: the QR code, the text, and the container styling.
 
-### Built with
+2. Setting Up the Project
+I created a new GitHub repository and cloned it to my local machine.
+I structured my project with the following folders:
+
+/qr-code-component
+├── index.html
+├── styles.css
+├── images/
+├── README.md
+
+I linked my CSS file to the HTML file and ensured the project was set up correctly.
+3. Writing the HTML Structure
+I used semantic HTML5 to structure the page.
+I wrapped the QR code and text inside a container div for better styling.
+
+4. Styling with CSS
+I applied CSS Flexbox to center the component on the page.
+I used Google Fonts (Outfit) to match the design.
+I set the correct font sizes, colors, and spacing based on the design.
+I adjusted the background color and added a subtle shadow to the QR code container.
+
+5. Making the Design Responsive
+I used a mobile-first approach, ensuring the design looked great on smaller screens first.
+I tested the layout by resizing my browser window and using Chrome Developer Tools.
+
+6. Deploying the Project
+I pushed my code to GitHub and deployed it using GitHub Pages.
+I tested the Live Site URL on both desktop and mobile to ensure everything looked correct.
+
+
+## Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS3 for styling
+- Flexbox for layout alignment
+- Git & GitHub for version control and deployment
+- GitHub Pages for hosting
+- VS Code as the code editor
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
+## What I learned
+During this project, I gained a better understanding of:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+CSS Flexbox for centering elements and layout control.
+How to use Google Fonts to enhance typography.
+The importance of consistent padding and margin for proper spacing.
+How to deploy a project on GitHub Pages for live hosting.
+Here’s an example of CSS I used that I’m proud of:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+## Continued development
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Going forward, I want to focus on:
 
-### Continued development
+Learning CSS Grid to complement my knowledge of Flexbox.
+Improving my HTML accessibility by using ARIA attributes properly.
+Practicing more Frontend Mentor challenges to build my skills.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## Useful resources
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+CSS Tricks - Flexbox Guide - Helped me understand how to align items properly.
+Google Fonts - Used to import and apply the Outfit font.
+MDN Web Docs - A great reference for HTML and CSS properties.
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@sumela25]
+- GitHub - @sumela25
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+This project was completed independently as part of the Frontend Mentor challenge. It helped me practice and improve my front-end development skills.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
