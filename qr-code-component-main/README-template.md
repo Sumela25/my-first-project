@@ -116,4 +116,3 @@ MDN Web Docs - A great reference for HTML and CSS properties.
 ## Acknowledgments
 
 This project was completed independently as part of the Frontend Mentor challenge. It helped me practice and improve my front-end development skills.
-
